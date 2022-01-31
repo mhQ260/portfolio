@@ -42,4 +42,10 @@ body {
         }
     }
 
+    @media (min-width: $screen-xxl-min) {
+        h1 {
+            font-size: 3.8rem;
+        }
+    }
+
 }

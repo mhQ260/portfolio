@@ -71,4 +71,14 @@
             }
         }
     }
+
+    @media (min-width: $screen-xxl-min) {
+        padding: 8rem 16rem;
+
+        .container .about__img {
+            width: 40%;
+            padding: 10rem;
+            padding-top: 4rem;
+        }
+    }
 }
