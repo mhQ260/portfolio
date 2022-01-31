@@ -1,0 +1,26 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat+Alternates:wght@300;400;700&family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+// font-family: 'Audiowide', cursive;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Montserrat Alternates', sans-serif;
+
+//colors
+$white: #fff;
+$bgc-blue: #2e2ebf;
+$blue: #303086;
+$red: #ff5252;
+$black: #000;
+$grey: #414141;
+$lightGrey: #f5f5f5;
+
+//breakpoints
+$screen-sm-min: 567px;
+$screen-md-min: 767px;
+$screen-lg-min: 991px;
+$screen-xl-min: 1200px
+
+// Mobile portait (320px to 414px) — For devices with 4" to 6.9" screens.
+// Mobile landscape (568px to 812px) — Same, but landscape.
+// Tablet portait (768px to 834px) — For devices 7" to 10"
+// Tablet landscape (1024px to 1112px) — Ditto, but also 12" tablets on portrait
+// Laptop & desktop displays (1200px+) — Varies a lot, but is usually 1200px 

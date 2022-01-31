@@ -1,0 +1,10 @@
+footer {
+    padding: 4rem 1.5rem .5rem 1.5rem;
+    background-color: $bgc-blue;
+
+    & p {
+        color: $lightGrey;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}

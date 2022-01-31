@@ -1,0 +1,94 @@
+header {
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    background-color: $bgc-blue;
+    display: flex;
+    flex-direction:column;
+
+    & .navbar {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        & .logo {
+            // width: 100px;
+            height: 40px;
+            // overflow: hidden;
+    
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    
+        & .burger {
+            padding: 0;
+            background: none;
+            color: inherit;
+            border: none;
+            cursor: pointer;
+            outline: inherit;
+    
+            & i {
+                color: $white;
+                font-size: 3rem;
+            }
+        }
+    
+        & nav {
+            display: none;
+        }
+    }
+
+    .content {
+        height: 100%;
+        width: 100%;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 5rem;
+            font-family: 'Audiowide', sans-serif;
+            color: $white;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 2.6rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            text-align: center;   
+        }
+
+        button {
+            height: 38px;
+            width: 140px;
+            margin-top: 3rem;
+            background-color: $red;
+            border:none;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px;
+
+            & a {
+                font-size: 1.6rem;
+                color: $white;
+                font-weight: 600;
+                letter-spacing: .5px;
+            }
+        }
+    }
+    
+
+
+    @media (min-width: $screen-xl-min) {
+        background-image: url("../img/bgc3.png");
+    }
+}
