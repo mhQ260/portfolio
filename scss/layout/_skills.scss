@@ -14,7 +14,6 @@
             height: 100%;
             width: 100%;
             margin-top: 3rem;
-            padding: 1rem;
             display: flex;
             flex-direction: column;
 
@@ -50,5 +49,31 @@
                 }
             }
         }
+    }
+
+    @media (min-width: $screen-md-min) {
+        padding: 8rem 5rem;
+
+        .container {
+            & .skills__list {
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                & .skill {
+                    height: 280px;
+                    width: 44%;
+                    margin-top: 1rem;
+
+                    &:nth-child(odd) {
+                        margin-right: 3%;
+                    }
+
+                    &:nth-child(even) {
+                        margin-left: 3%;
+                    }
+                }
+            }
+        }
+
     }
 }

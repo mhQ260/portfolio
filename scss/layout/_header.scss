@@ -88,7 +88,84 @@ header {
     
 
 
-    @media (min-width: $screen-xl-min) {
-        background-image: url("../img/bgc3.png");
+    @media (min-width: $screen-md-min) {
+
+        & .navbar {
+
+            & .burger {
+                display: none;
+            }
+
+            & nav {
+                height: 100%;
+                width: 70%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                & a {
+                    padding: 10px 5px;
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    color: $lightGrey;
+                    border-bottom: 2px solid $bgc-blue;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: $white;
+                        border-bottom: 2px solid white;
+                    }
+                }
+            }
+        }
+
+        .content {
+
+            & button {
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: #ee4141;                    
+                }
+            }
+        }
+    }
+
+    @media (min-width: $screen-lg-min) {
+        background-image: url('/img/bgc_medium.gif');
+        background-repeat: no-repeat;
+        background-position: 90% 50%;
+        background-size: cover;
+
+        & .navbar {
+            height: 60px;
+
+            .logo {
+                height: 60px;
+            }
+
+            nav {
+                width: 60%;
+                padding: 0 2rem;
+            }
+        }
+
+        & .content {
+            width: 50%;
+            height: 68%;
+            padding-left: 2rem;
+            align-items: flex-start;
+
+            h1 {
+                font-size: 4.4rem;
+            }
+
+            h2 {
+            }
+
+            button {
+
+            }
+        }
     }
 }

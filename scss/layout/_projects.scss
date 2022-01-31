@@ -48,4 +48,51 @@
             }
         }
     }
+
+    @media (min-width: $screen-md-min) {
+        padding: 8rem 4rem 4rem 4rem;
+
+        & .container > .projects__list > .project {
+            margin-bottom: 10rem;
+            padding: 0 4rem;
+
+            & a > img {
+                width: 100%;
+                margin-bottom: 3rem;
+            }
+
+            & .tech > li {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    @media (min-width: $screen-lg-min) {
+        & .container > .projects__list  {
+            flex-direction: row;
+            flex-wrap: wrap;
+        
+            & .project { 
+                width: 48%;
+
+                &:nth-child(odd) {
+                    margin-right: 2%;
+                }
+
+                &:nth-child(even) {
+                    margin-left: 2%;
+                }
+
+                & .tech > li {
+                    font-size: 1.8rem;
+                }
+
+                & .desc {
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    line-height: 2.2rem;
+                }
+            }
+        }
+    }
 }

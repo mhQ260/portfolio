@@ -14,12 +14,7 @@
         }
 
         .underline::after {
-            content: "";
-            position: absolute;
-            height: 3px;
             background-color: $white;
-            width: 80px;
-            // bottom: -
         }
 
         p {
@@ -46,7 +41,41 @@
                 }
             }
         }
+    }
 
+    @media (min-width: $screen-md-min) {
+        padding: 4rem;
 
+        .container > p {
+            padding: 2rem 1rem;
+        }
+
+    }
+
+    @media (min-width: $screen-md-min) {
+        .container {
+            flex-direction: row;
+
+            & .info {
+
+                width: 100%;
+
+               & p {
+                    padding-right: 2rem;
+                }
+            }
+
+            & .socials {
+                width: 100%;
+                padding-left: 10rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                & li > a > i {
+                    font-size: 4.6rem;
+                }
+            }
+        }
     }
 }
