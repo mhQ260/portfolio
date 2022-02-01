@@ -47,14 +47,34 @@ header {
             }
         }
 
+        .mobile-nav {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            width: 100%;
+            padding: 5rem 1rem;
+            background-color: $bgc-blue;
+            color: $white;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            a {
+                font-size: 3rem;
+                font-weight: 500;
+            }
+        }
+
         .show-block {
             display: block;
         }
 
         .close {
             position: fixed;
-            right: 2.2rem;
-            top: 2.8rem;
+            right: 2rem;
+            top: 1.2rem;
         }
 
         & nav {

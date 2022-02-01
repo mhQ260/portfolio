@@ -7,10 +7,19 @@
 @import "layout/_contact.scss";
 @import "layout/_footer.scss";
 
+html {
+    scroll-behavior: smooth;
+}
+
+.lock-scroll {
+    overflow: hidden;
+}
+
 body {
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
+    
     
     h1 {
         font-size: 3.4rem;
