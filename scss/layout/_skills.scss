@@ -33,26 +33,50 @@
 
                 &:nth-child(1) {
                     border-top-color:#146cad;
+
+                    .logo > i {
+                        color: #146cad;
+                    }
                 }
                 
                 &:nth-child(2) {
                     border-top-color:#ead41c;
+
+                    .logo > i {
+                        color: #ead41c;
+                    }
                 }
 
                 &:nth-child(3) {
                     border-top-color:#5bcfee;
+
+                    .logo > i {
+                        color: #5bcfee;
+                    }
                 }
 
                 &:nth-child(4) {
                     border-top-color:#3eaf7c;
+
+                    .logo > i {
+                        color: #3eaf7c;
+                    }
                 }
 
                 &:nth-child(5) {
                     border-top-color:#3d3e34;
+
+                    .logo > i {
+                        color: #3d3e34;
+                    }
                 }
 
                 &:nth-child(6) {
                     border-top-color:#8c271b;
+
+                    .logo > i {
+                        color: #8c271b;
+                    }
                 }
 
                 & ul {
@@ -73,7 +97,6 @@
 
                     i {
                         font-size: 4rem;
-                        
                     }
                 }
             }
