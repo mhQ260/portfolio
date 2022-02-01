@@ -184,7 +184,7 @@ header {
     }
 
     @media (min-width: $screen-lg-min) {
-        background-image: url('/img/bgc_medium.gif');
+        background-image: url('./img/bgc_medium.gif');
         background-repeat: no-repeat;
         background-position: 90% 50%;
         background-size: cover;
