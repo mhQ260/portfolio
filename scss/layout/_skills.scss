@@ -19,14 +19,41 @@
 
             & .skill {
                 height: 250px;
-                padding: 3rem 1.5rem;
+                padding: 2rem 1.5rem;
                 margin-bottom: 4rem;
                 background-color: $white;
                 border-radius: 5px;
+                border-top: 8px solid $black;
                 border-top-left-radius: 0;
                 border-top-right-radius: 0;
-                border-top: 5px solid red;
                 box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px -5px;
+                display: flex;
+                flex-direction: column;
+                justify-items: space-between;
+
+                &:nth-child(1) {
+                    border-top-color:#146cad;
+                }
+                
+                &:nth-child(2) {
+                    border-top-color:#ead41c;
+                }
+
+                &:nth-child(3) {
+                    border-top-color:#5bcfee;
+                }
+
+                &:nth-child(4) {
+                    border-top-color:#3eaf7c;
+                }
+
+                &:nth-child(5) {
+                    border-top-color:#3d3e34;
+                }
+
+                &:nth-child(6) {
+                    border-top-color:#8c271b;
+                }
 
                 & ul {
                     height: 100%;
@@ -37,14 +64,16 @@
                         font-weight: 300;
                     }
 
-                    .logo {                        
-                        margin-top: 30px;
-                        text-align: right;
+                }
 
-                        i {
-                            font-size: 4rem;
-                            
-                        }
+                .logo {               
+                    align-self: flex-end;         
+                    margin-top: auto;
+                    text-align: right;
+
+                    i {
+                        font-size: 4rem;
+                        
                     }
                 }
             }
@@ -61,7 +90,7 @@
 
                 & .skill {
                     height: 280px;
-                    width: 44%;
+                    width: 47%;
                     margin-top: 1rem;
 
                     &:nth-child(odd) {
